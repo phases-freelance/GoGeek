@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GeekWork - Affordable, Fully Integrated Remote Teams for Startups</title>
+    
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/fav.png" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom_style.css" rel="stylesheet">
+    <!-- Icon CSS-->
+    <!-- <link rel="stylesheet" href="fonts/FontAwesome/css/all.css"> -->
+    <link href="css/all.min.css" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet"> -->
+</head>
+
+<body>
+    <!-- Header_Area -->
+    <nav class="navbar navbar-default header_aera " id="">
+        <div class="container">
+            <div class="row" style="width:100%">
+
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="col-md-3">
+                    <div class="navbar-header">
+
+
+                        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="GeekWork"></a>
+                    </div>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="col-md-9  menu-area" id="menu_area">
+                    <nav class="navbar navbar-light navbar-expand-lg mainmenu">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav  menu_style">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">WHAT WE DO </a></li>
+                                <li><a href="#">WHO WE ARE </a></li>
+                                <li><a href="#">CAREERS </a></li>
+                                <li><a href="#">CONTACT US </a></li>
+                                <li><a href="#">BLOG </a></li>
+
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div><!-- /.container -->
+    </nav>
+    <!-- End Header_Area -->
+    <!-- ============================== Start Banner Section ==================================== -->
+    <div class="Container-fluid pt-100">
+
+        <div class="banneroverlay_color">
+            <!-- <div class="banner_txt">
+                <h1>Hire Skilled IT Talent At Half The Cost</h1>
+                <p>Build Your Team Faster With Our On Dem8nd Tech Staff.<br>
+                    Any Tech Stack Available For Short And Long Term Projects.</p>
+            </div> -->
+            <img src="images/banner.jpg" alt="Top Banner" class="img-fluid" />
+
+
+        </div>
+
+    </div>
+    <!-- ============================== End Banner Section ==================================== -->
+
+    <!-- =================================== Start Forget About ================================== -->
+    <div class="container-fluid forgetabout_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="section_title">FORGET ABOUT</h1>
+                    <ul class="forgetabout_list">
+                        <li>1. BEING CHRONICALLY UNDERSTAFF</li>
+                        <li>2. PLUGGING HOLES WITH
+                            UNRELIABLE FREELANCERS</li>
+                        <li>3. NOT HAVING ENOUGH BUDGET TO
+                            HIRE</li>
+                    </ul>
+
+                    <p class="forgetpara_style">
+                        GEEKWORK GIVES YOU THE ABILTY TO BUILD OR EXTEND YOUR VERY
+                        OWN REMOTE TEAM AT AN AFFORDABLE RATE.
+                        OUR IT PROFESSIONALS ARE COMMITED TO YOUR BUSINESS AS THEY
+                        NEVER TAKE ON MULTIPLE PROJECTS AT ONCE.
+                    </p>
+                    <div class="forgetbtn_style" style="margin-top: 3em;">
+                        <button class="button  arrow">Read more</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =================================== End Forget About ================================== -->
+
+<!-- ======================================== Start Footer Top Section ============================= -->
+<section>
+    <div class="container-fluid jobopening_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                     <h3 class="jobtitle_style">WANT TO     <span> JOIN THE TEAM?</span></h3>
+                     <p>WE’RE ALWAYS LOOKING FOR AMAZING PEOPLE TO JOIN OUR GeekWork. CHECK OUT OUR CURRENT OPPORTUNITIES AND SIGN UP FOR JOB ALERTS.</p>
+                     <div class="forgetbtn_style">
+                            <button class="button  arrow">VIEW OPENINGS</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ======================================== End Footer Top Section ============================= -->
+    <!-- ========================================== Start Footer ==================================== -->
+    <footer class="footer_style">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="sociallist">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <p>&copy; GEEKWORK INC, 2019</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ========================================== End Footer ==================================== -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        (function ($) {
+            $('.dropdown-menu a.dropdown-toggle').on('click', function (e) {
+                if (!$(this).next().hasClass('show')) {
+                    $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+                }
+                var $subMenu = $(this).next(".dropdown-menu");
+                $subMenu.toggleClass('show');
+
+                $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+                    $('.dropdown-submenu .show').removeClass("show");
+                });
+
+                return false;
+            });
+        })(jQuery)
+    </script>
+</body>
+
+</html>
